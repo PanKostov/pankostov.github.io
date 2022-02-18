@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forum</title>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="index.css">
+<script type="text/javascript" src="indes.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+<link rel="icon" 
+      type="image/jpg" 
+      href="images\upper-logo.jpg" />
+<link rel="shortcut icon" type="image/ico" href="images\favicon.ico"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+    <header>
+        <h1>PANAYOT</h1>
+    </header>
+    <nav>   
+        <ul class = "topnav" id = "myTopnav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="downloads.html">Download</a></li>
+            <li><a href="../index.html">Autobiography</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="forum.html">Forum</a></li>
+        </ul>
+        <a class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+    <main>
+        <section id = "app">
+            <div class = "container-forum">
+                <div class = "row">
+                    <div class = "col-6">
+                        <div class="comment">
+                            <p v-for="items in item" v-text="items"></p>
+                        </div><!--End comment -->
+                    </div><!--End col -->
+                </div><!--End row -->
+                    <div class = "row">
+                      <div class = "col-6">
+                        <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+                        <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+                      </div><!--End col -->
+                    </div><!--End row -->
+            </div><!--End Container -->
+        </section>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+        <script>
+            $(document).ready(function(){ 
+ 
+                $(".primaryContained").on('click', function(){
+                $(".comment").addClass("commentClicked");
+                });//end click
+                $("textarea").on('keyup.enter', function(){
+                    $(".comment").addClass("commentClicked");
+                });//end keyup
+                });//End Function
+
+            new Vue({
+                el: "#app",
+                data:{
+                    title: 'Add a comment',
+                  newItem: '',
+                  item: [],
+                },
+                methods:{
+                  addItem  (){
+                  this.item.push(this.newItem);
+                    this.newItem = "";
+                }
+                }
+
+                });
+        </script>
+    </main>
+    <footer>
+        <div class = "socialMedia"> 
+            <a href="https://www.facebook.com/panaiot.kostov.7"target="_blank"><img src = "images\fb_logo.svg" alt="Facebook logo" width="30px"></a>
+            <a href="https://www.instagram.com/panayot.kostov "target="_blank"><img src = "images\insta_logo.svg" alt="Instagram logo" width="30px"></a>
+            <a href="https://github.com/hzd1719"target="_blank"><img src = "images\github_logo.svg" alt="Github logo" width="30px"></a>
+        </div>
+        <p>@2022 Panayot Kostov</p>
+    </footer>
+
+</body>
+</html>
