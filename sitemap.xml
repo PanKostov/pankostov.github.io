@@ -1,50 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<!-- created with www.mysitemapgenerator.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-	<loc>https://hzd1719.github.io/</loc>
-	<lastmod>2023-01-08T23:19:31+01:00</lastmod>
-	<priority>1.0</priority>
+    <loc>https://pankostov.github.io/</loc>
+    <lastmod>2024-07-13T23:19:31+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
 </url>
 <url>
-	<loc>https://hzd1719.github.io/index.html</loc>
-	<lastmod>2023-01-08T23:19:31+01:00</lastmod>
-	<priority>1.0</priority>
-	<image:image>
-			<image:loc>https://hzd1719.github.io/more%5Cimages%5CPAN.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://hzd1719.github.io/more%5Cimages%5CMainImage1.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://hzd1719.github.io/more%5Cimages%5CMainImage2.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://hzd1719.github.io/more%5Cimages%5CMainImage3.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://hzd1719.github.io/more%5Cimages%5Cfb_logo.svg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://hzd1719.github.io/more%5Cimages%5Cinsta_logo.svg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://hzd1719.github.io/more%5Cimages%5Cgithub_logo.svg</image:loc>
-	</image:image>
+    <loc>https://pankostov.github.io/index.html</loc>
+    <lastmod>2024-07-13T23:19:31+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+        <image:loc>https://pankostov.github.io/more/images/PAN.jpg</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://pankostov.github.io/more/images/MainImage1.jpg</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://pankostov.github.io/more/images/MainImage2.jpg</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://pankostov.github.io/more/images/MainImage3.jpg</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://pankostov.github.io/more/images/fb_logo.svg</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://pankostov.github.io/more/images/insta_logo.svg</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://pankostov.github.io/more/images/github_logo.svg</image:loc>
+    </image:image>
 </url>
 <url>
-	<loc>https://hzd1719.github.io/gallery.html</loc>
-	<lastmod>2023-01-08T23:19:31+01:00</lastmod>
-	<priority>1.0</priority>
+    <loc>https://pankostov.github.io/gallery.html</loc>
+    <lastmod>2024-07-13T23:19:31+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
 </url>
 <url>
-	<loc>https://hzd1719.github.io/downloads.html</loc>
-	<lastmod>2023-01-08T23:19:31+01:00</lastmod>
-	<priority>1.0</priority>
+    <loc>https://pankostov.github.io/downloads.html</loc>
+    <lastmod>2024-07-13T23:19:31+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
 </url>
 <url>
-	<loc>https://hzd1719.github.io/forum.html</loc>
-	<lastmod>2023-01-08T23:19:31+01:00</lastmod>
-	<priority>1.0</priority>
+    <loc>https://pankostov.github.io/forum.html</loc>
+    <lastmod>2024-07-13T23:19:31+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
 </url>
 </urlset>
