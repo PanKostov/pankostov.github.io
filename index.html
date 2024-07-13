@@ -1,130 +1,98 @@
 <!DOCTYPE html>
 <html lang="bg">
 <head>
-<title>Panayot's website - check by projects and blog</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="more/style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
-<link rel="icon" 
-      type="image/jpg" 
-      href="more\images\upper-logo.jpg" />
-<link rel="shortcut icon" type="image/ico" href="more\images\favicon.ico"/>
-<link rel="apple-touch-icon" href="more\images\upper-logo.jpg">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Аз съм Панайот, а ова е моят личен уебсайт и тук може да получите малко инфорамция за мен и за проектите, с които се занимавам.">
-<meta name=”keywords” content="личен уебсайт, проекти,
-панайот костов, panayot kostov, panayot, projects, web developmentm, mini games, website, personal website, panayot's website, blog"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="more/script.js"></script>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'GA_TRACKING_ID');
-        </script>
-<meta name="google-site-verification" content="orFGoSHOdntUwjxKFQxAkJkoBSwUceuQKHZof02JkaI" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="личен уебсайт, проекти, панайот костов, Panayot Kostov, projects, web development, mini games, blog"/>
+    <meta name="description" content="Panayot Kostov's Personal Website - Explore projects, blog, and more. Learn about Panayot's life and experiences.">
+    <title>Panayot Kostov - Personal Website and Blog</title>
+    <link rel="stylesheet" href="more/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/jpg" href="more/images/upper-logo.jpg"/>
+    <link rel="shortcut icon" type="image/ico" href="more/images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="more/images/upper-logo.jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="more/script.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_TRACKING_ID');
+    </script>
+    <meta name="google-site-verification" content="orFGoSHOdntUwjxKFQxAkJkoBSwUceuQKHZof02JkaI" />
 </head>
 <body>
     <header>
-        <h1>PANAYOT - PERSONAL WEBSITE AND BLOG</h1>
+        <h1>Panayot Kostov - Personal Website and Blog</h1>
     </header>
-    <nav>   
-        <ul class = "topnav" id = "myTopnav">
-            <li><a href="index.html" name="home" title = "Link to home page">Home</a></li>
-            <li><a href="more\downloads.html" name="downloads" title="Link to the download page">Download</a></li>
+    <nav>
+        <ul class="topnav" id="myTopnav">
+            <li><a href="index.html" name="home" title="Link to home page">Home</a></li>
+            <li><a href="more/downloads.html" name="downloads" title="Link to the download page">Download</a></li>
             <li><a href="index.html" name="autobiography" title="Link to autobiography page">Autobiography</a></li>
-            <li><a href="more\gallery.html" name="gallery" title="Link to gallery page">Gallery</a></li>
-            <li><a href="more\forum.html" name="gallery" title = "Link to the forum of the site">Forum</a></li>
+            <li><a href="more/gallery.html" name="gallery" title="Link to gallery page">Gallery</a></li>
+            <li><a href="more/forum.html" name="forum" title="Link to the forum of the site">Forum</a></li>
         </ul>
         <a class="icon" onclick="myFunction()">&#9776;</a>
     </nav>
-    
     <main>
-        <section id = "intro">
-            <div class = "container">
-                <img src="more\images\PAN.jpg" alt="Picture of me" id = "main-img" class = "myImage">
-                <div class = "description">
-                    <p>Казвам се Панайот, родом от град Казанлък съм, известен още като 'града на розите'. Завършил съм местната хуманитарна гимназия, след това
-                        реших да замина да уча Икономика в Тилбургския университет в Холандия, но нещата не се развиха по най-добрия начин и реших да се завърна в България. 
-                        В програмата ми по Икономика имаше и курс по Пайтън, и от там се запалих по пгорамирането, затова в България без да се замисля записах Информационни
-                        Технологии в Нов Български университет. (Нарочно така е написано, не съм филмар :D)
-                    </p>               
-                </div>
-            </div>        
-        </section>
-        <section id = "middle">
-            <h2 class = "ok">Projects</h2>
-            <div class = projects>
-                
-                <div>
-                    <a href = "https://github.com/hzd1719/DamyanovHouse"target="_blank" title = "Link to the github page of the web project"><img src="more\images\MainImage1.jpg" alt="Image of web dev project" id = "imgProject1">
-                        <h3 id = "project_one" class = "projectTitles">Web development</h3>
-                    </a>
-                    <p>
-                        Damyanov House - първият ми сайт, който направих. Сайтът е за местна къща за гости,
-                        има кратка информация за къщата и града, както и галерия от снимки. Все още не е напълно довършен,
-                        има какво да се прави като фронт енд, но искам да направя и бак енда за резервациите. Трябва да има повече ключови думу
-                        като - web development и personal website(личен уебсайт), даже и blog(блог)
-                        <a><br><span>Show more...</span></a>
-                    </p>
-                </div>
-                <div>
-                    <a href = "https://github.com/hzd1719/FourMiniGames"target="_blank" title = "Link to the github page of the mini games project"><img src="more\images\MainImage2.jpg" alt="Image of mini games project" id = "imgProject2">
-                        <h3 id = "project_two" class = "projectTitles">Mini Games</h3>
-                    </a>
-                    <p>
-                        Сега може да играете любимите си мини игри от детството - Понг гейм, Бесеница, Змията и Събиране на ябълки.
-                        Въпреки че в момента има нови и доста по-реалистични и вълнуващи игри, никой не отказва да разпусне на игри, които му носят спомени.
-                        Има база за подобрение и в игрите, но най-лесното подобрение, което мога да напрвя е да ги направя в exe файл, за да се играят
-                        без python.
-                        <a><br><span>Show more...</span></a>                       
-                    </p>
-                </div>
-                <div>
-                    <a target="_blank"><img src="more\images\MainImage3.jpg" alt="Image of Landscape project" id = "imgProject3">
-                        <h3 id = "project_three" class = "projectTitles">Landscape with Unreal</h3>
-                    </a>
-                    <p>
-                        Най-скорошният ми проект, тук може да се потопите в красива гледка направена с Unreal Engine.
-                        Това е подготовка за игра. Това ще ми е пистата, имам нещо на ум какво мога да направя с това.
-                        Пиша, каквото ми падне, защото сайта е в демо версия и трябва да трупам думи за SEO оптимизация.
-                        <a><br><span>Show more...</span></a>
-                    </p>
+        <section id="intro">
+            <div class="container">
+                <img src="more/images/PAN.jpg" alt="Picture of Panayot Kostov" id="main-img" class="myImage">
+                <div class="description">
+                    <p>Казвам се Панайот, родом от град Казанлък съм, известен още като 'града на розите'. Завършил съм местната хуманитарна гимназия, след това реших да замина да уча Икономика в Тилбургския университет в Холандия, но нещата не се развиха по най-добрия начин и реших да се завърна в България. В програмата ми по Икономика имаше и курс по Пайтън, и от там се запалих по програмирането, затова в България без да се замисля записах Информационни Технологии в Нов Български университет.</p>
                 </div>
             </div>
         </section>
-        <script>
-            //when nav is clicked, make navbar apper and move the home page image
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                var y = document.getElementById("main-img");
-            
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                    y.className += " move"
-            
-            }  else {
-                    x.className = "topnav";
-                    y.className = "myImage"
-            }
-          }
-        </script>
+        <section id="middle">
+            <h2 class="ok">Projects</h2>
+            <div class="projects">
+                <div>
+                    <a href="https://github.com/hzd1719/DamyanovHouse" target="_blank" title="Link to the GitHub page of the web project"><img src="more/images/MainImage1.jpg" alt="Image of web development project" id="imgProject1">
+                        <h3 id="project_one" class="projectTitles">Web Development</h3>
+                    </a>
+                    <p>Damyanov House - първият ми сайт, който направих. Сайтът е за местна къща за гости, има кратка информация за къщата и града, както и галерия от снимки. Все още не е напълно довършен, има какво да се прави като фронт енд, но искам да направя и бек енда за резервациите.</p>
+                </div>
+                <div>
+                    <a href="https://github.com/hzd1719/FourMiniGames" target="_blank" title="Link to the GitHub page of the mini games project"><img src="more/images/MainImage2.jpg" alt="Image of mini games project" id="imgProject2">
+                        <h3 id="project_two" class="projectTitles">Mini Games</h3>
+                    </a>
+                    <p>Сега може да играете любимите си мини игри от детството - Понг гейм, Бесеница, Змията и Събиране на ябълки. Въпреки че в момента има нови и доста по-реалистични и вълнуващи игри, никой не отказва да разпусне на игри, които му носят спомени.</p>
+                </div>
+                <div>
+                    <a><img src="more/images/MainImage3.jpg" alt="Image of Landscape project" id="imgProject3">
+                        <h3 id="project_three" class="projectTitles">Landscape with Unreal</h3>
+                    </a>
+                    <p>Най-скорошният ми проект, тук може да се потопите в красива гледка направена с Unreal Engine. Това е подготовка за игра. Това ще ми е пистата, имам нещо на ум какво мога да направя с това.</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-        
-        <div class = "socialMedia"> 
-            <a href="https://www.facebook.com/panaiot.kostov.7"target="_blank" title="Link to Facebook"><img src = "more\images\fb_logo.svg" alt="Facebook logo" width="30px"></a>
-            <a href="https://www.instagram.com/panayot.kostov "target="_blank" title="Link to Instagram"><img src = "more\images\insta_logo.svg" alt="Instagram logo" width="30px"></a>
-            <a href="https://github.com/hzd1719"target="_blank" title = "Link to github"><img src = "more\images\github_logo.svg" alt="Github logo" width="30px"></a>
+        <div class="socialMedia">
+            <a href="https://www.facebook.com/panaiot.kostov.7" target="_blank" title="Link to Facebook"><img src="more/images/fb_logo.svg" alt="Facebook logo" width="30px"></a>
+            <a href="https://www.instagram.com/panayot.kostov" target="_blank" title="Link to Instagram"><img src="more/images/insta_logo.svg" alt="Instagram logo" width="30px"></a>
+            <a href="https://github.com/hzd1719" target="_blank" title="Link to GitHub"><img src="more/images/github_logo.svg" alt="GitHub logo" width="30px"></a>
         </div>
-        <p>@2022 Panayot Kostov</p>
+        <p>@2024 Panayot Kostov</p>
     </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            var y = document.getElementById("main-img");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                y.className += " move";
+            } else {
+                x.className = "topnav";
+                y.className = "myImage";
+            }
+        }
+    </script>
 </body>
 </html>
